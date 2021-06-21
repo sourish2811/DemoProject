@@ -28,6 +28,7 @@ public class DemoTest1 {
 	public void test1() {
 		drv.get().get("https://www.google.com");
 		System.out.println("Title of Test 1 : " + drv.get().getTitle());
+		System.out.println("Addition line added in Test1 method");
 	}
 
 	@Test
